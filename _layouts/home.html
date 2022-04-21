@@ -14,13 +14,12 @@
 
         {% include projects.html %}
 
+        {% include article.html %}
+
         {%- if site.topics -%}
           {% include interests.html %}
         {%- endif -%}
-
-        {%- unless posts_total == 0 -%}
-          {% include article.html %}
-        {%- endunless -%}
+        
       </div>
     </div>
   </div>

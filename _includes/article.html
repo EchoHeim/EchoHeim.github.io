@@ -1,9 +1,23 @@
 <h2>Articles</h2>
 <p class="f4 mb-4 text-gray">Articles I've written.</p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-  {%- for post in site.posts limit: 6 -%}
-    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-      {% include post-card.html %}
-    </div>
+
+  {%- for article in site.article -%}
+
+  <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+    
+    <a href="{{ article.web_url }}" target="_blank" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
+
+      <img src="{{ article.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ article.name }}">
+      <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">{{ article.name }}</p>
+
+      {%- if topic.description -%}
+        <p class="f5 text-gray text-center mb-0 mt-1">{{ article.description }}</p>
+      {%- endif -%}
+    </a>
+
+  </div>
+
   {%- endfor -%}
+
 </div>
