@@ -6,6 +6,23 @@ permalink: /:year/:month/:day/:title/
 
 theme: jekyll-theme-cayman
 
+links:
+  - name: 所有
+    url: /
+    type: recent
+    external: false
+
+  - name: 随笔
+    url: /
+    type: recent
+    external: false
+
+  - name: 技术篇
+    url: /
+    type: recent
+    external: false
+
+
 # defaults:
 #   -
 #     scope:
@@ -19,13 +36,13 @@ repositories:
   sort_by_stars: true
 
 topics:
-  - name: HomePage
-    web_url: https://echoheim.github.io/AutoBuildTools/
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png
+  - name: Linux
+    web_url: https://github.com/topics/linux
+    image_url: https://user-images.githubusercontent.com/26021085/164583257-119c3fb6-778d-4aeb-9d76-46bb2932dccc.png
 
   - name: React
     web_url: https://github.com/topics/react
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
+    image_url: https://user-images.githubusercontent.com/26021085/164592913-04aa9c35-79b6-43c1-b609-166bf2ae8362.svg
 
   - name: Node.js
     web_url: https://github.com/topics/nodejs
@@ -37,7 +54,8 @@ topics:
 
   - name: JavaScript
     web_url: https://github.com/topics/js
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
+    # image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
+    image_url: https://user-images.githubusercontent.com/26021085/164691965-567afb1f-d89e-4497-ab0b-27ad15c16673.svg
 
   - name: CSS
     web_url: https://github.com/topics/css
