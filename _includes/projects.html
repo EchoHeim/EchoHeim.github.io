@@ -12,7 +12,7 @@
   {%- for repository in public_repositories limit: site.repositories.limit -%}
 
     <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-      {%- include repo-card.html -%}
+      {%- include repository.html -%}
     </div>
 
   {%- endfor -%}
