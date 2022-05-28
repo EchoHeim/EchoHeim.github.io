@@ -37,7 +37,7 @@ repositories:
 
 article:
   - name: 技术博客
-    web_url: https://echoheim.github.io/AutoBuildTools/
+    web_url: https://echoheim.github.io/actapb/
     image_url: https://user-images.githubusercontent.com/26021085/164876954-f53ae257-472b-4eb4-b4f2-b244597e77b5.png
 
 topics:
